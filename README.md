@@ -14,7 +14,7 @@ make CarpentryOptimization
 ```
 
 ## Running
-Run the `CarpentryOptimization` executable with a path to a configuration file as an argumment (see `examples/customstool.txt` as an example). The example data currently needs to be downloaded separately: [get it here](https://drive.google.com/file/d/16VQeez8vya6cB7WhLDWmjhHzla2AK-3u/view?usp=sharing), and place the folder within a folder named data/.
+Run the `CarpentryOptimization` executable with a path to a configuration file as an argumment (see `examples/customstool.txt` as an example). The example data currently needs to be downloaded separately: [get it here](https://drive.google.com/file/d/16VQeez8vya6cB7WhLDWmjhHzla2AK-3u/view?usp=sharing), and place the folder within a folder named `data/`.
 The configuration file contains many parameters that affect the algorithm. Additionally, you may choose whether to obtain interactive 3D visualization of results at various stages of the pipeline by setting `visualization=1`.
 
 The important settings for running with your own data are:
