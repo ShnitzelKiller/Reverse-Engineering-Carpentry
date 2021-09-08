@@ -1,0 +1,13 @@
+*~
+#*
+*#
+.#*
+build-*/
+bin/
+.idea/
+cmake-build-*/
+build-stable/
+results/
+data/
+.DS_Store
+synthesizer/compiled/
