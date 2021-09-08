@@ -1,7 +1,7 @@
 # Carpentry Shape Detection
 ## Overview
 ![](teaser3_sm.jpg)
-This tool reverse engineers carpentered objects from multi-view imagery, along with a point cloud created from these images using appropriate software for reconstruction.
+This is the code for the paper "[Fabrication-Aware Reverse Engineering for Carpentry](https://arxiv.org/abs/2107.09965)" by James Noeckel, Haisen Zhao, Brian Curless, and Adriana Schulz. The system reverse engineers carpentered objects from multi-view imagery, along with a point cloud created from these images using appropriate software for reconstruction.
 
 ## Building and installation instructions
 This project depends on OpenCV, LibIGL, CGAL, Pagmo, and [MAXFLOW](http://pub.ist.ac.at/~vnk/software.html). OpenMP is also preferred. To build, run
