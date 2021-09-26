@@ -26,7 +26,7 @@ FIND_PACKAGE( EIGEN3 3.3 REQUIRED NO_MODULE )
 
 INCLUDE_DIRECTORIES( ${CGAL_INCLUDE_DIRS} )
 
-INCLUDE( /usr/local/lib/cmake/pagmo/FindEigen3.cmake )
+#INCLUDE( /usr/local/lib/cmake/pagmo/FindEigen3.cmake )
 FIND_PACKAGE( Pagmo REQUIRED )
 INCLUDE_DIRECTORIES( ${EIGEN3_INCLUDE_DIRS} )
 
@@ -198,7 +198,7 @@ ADD_LIBRARY(
         src/geometry/primitives3/Multimesh.h)
 
 
-TARGET_LINK_LIBRARIES( CarpentryLib Eigen3::eigen3 ${Boost_LIBRARIES} CGAL::CGAL igl::core igl::opengl_glfw igl::opengl_glfw_imgui igl::triangle ${OpenCV_LIBS} Pagmo::pagmo maxflow OpenMP::OpenMP_CXX)
+TARGET_LINK_LIBRARIES( CarpentryLib Eigen3::Eigen ${Boost_LIBRARIES} CGAL::CGAL igl::core igl::opengl_glfw igl::opengl_glfw_imgui igl::triangle ${OpenCV_LIBS} Pagmo::pagmo maxflow OpenMP::OpenMP_CXX)
 
 ADD_EXECUTABLE( CarpentryOptimization src/applications/carpentry_optimization/main.cpp )
 #ADD_EXECUTABLE( VisualizeSolution src/applications/carpentry_optimization/visualizeSolution.cpp )
